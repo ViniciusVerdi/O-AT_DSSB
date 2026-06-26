@@ -23,6 +23,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.
 
 @WebMvcTest(ConsultaController.class)
 @TestConstructor(autowireMode = TestConstructor.AutowireMode.ALL)
+//teste
 public class ConsultaControllerTest {
 
     private final MockMvc mockMvc;
